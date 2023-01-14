@@ -1,0 +1,43 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans&display=swap');
+
+/* Comman styles and utilities */
+body {
+    width: 870px;
+    background: #F3F1FF;
+    margin: auto;
+    font-family: 'Poppins';
+}
+
+/* Top Players and top blogs styles */
+.top-players-and-blogs-container {
+    background: #ffffff;
+}
+
+/* Top Players Styles */
+.section-title{
+    font-size: 24px;
+    color: #562EFF;
+    margin-left: 33px;
+}
+.players-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 30px;
+}
+.player {
+    display: flex;
+}
+
+.players-container img {
+    width: 56px;
+    height: 56px;
+}
+
+
+.player-name {
+    font-weight: 500;
+    font-size: 18px;
+    padding-left: 16px;
+}
